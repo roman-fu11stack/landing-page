@@ -86,3 +86,44 @@ ul {
     object-fit: cover;
     display: block;        
 }
+
+/* main-two section */
+
+.main-two {
+    background-color: white;
+    color: #1f2937;
+    padding-bottom: 30px;
+}
+
+.main-two .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-two .card-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-two .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-two img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.card p {
+    color: #acacac;
+    font-size: 18px;
+    flex: 1;
+}
